@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details of The User</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label>First Name: </label><br><br>
+            <input type="text" id="fName" name="fName">
+                <br><br>
+
+            <label>Last Name: </label> <br><br>
+            <input type="text" id="lName" name="lName">
+            <br><br>
+
+            <label>  Gender :</label> <br><br>
+            <input type="radio" name="subject"
+            value="male>"> Male <br><br>
+
+            <input type="radio" name="subject"
+            value="female">Female <br><br>
+
+            <input type="radio" name="subject"
+            value="other">Other <br><br>
+            
+            <label for="email">Email:</label><br><br>
+            <input type="email" id="email" name="email">
+            <br><br>
+
+            <label for="email password(this should be hidden)"
+              >Password:</label> <br><br>
+              <input type="password" id="password" name="password">
+              <br><br>
+
+            <label for="phone">Phone Number:</label><br><br>
+            <input type="tel" id="phone" name="phone"> <br><br>
+            
+            <label for="dob">Date of Birth:</label><br><br>
+            <input type="date" id="dob" name="dob"><br><br>
+
+            <label for="email">Address:</label><br><br>
+            <textarea id="address" name="address" rows="4" cols="50" 
+            name="Description">Enter Description here...</textarea>
+            <br><br>
+           
+            </textarea>
+            <br><br>
+            <label for="country">Country:</label><br><br>  
+            <select id="country" name="country">
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+                <option value="uk">UK</option>
+                <option value="australia">Australia</option>
+                <option value="india">India</option>
+                <option value="nigeria">Nigeria</option>
+                <option value="other">Other</option> 
+            </select>
+            <br><br>
+
+                <label for="email">image:</label><br><br>
+                <input type="file" id="image" name="fileupload"
+                 accept="image/*"><br><br><br><br>
+
+                 <center>
+
+            <input type="submit" name="submit" value="Submit"> 
+
+            <input type="reset" name="reset" value="Reset"> 
+
+         </center>
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>
