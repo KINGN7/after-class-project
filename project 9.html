@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Restaurant Menu Card</title>
+</head>
+<style>
+.body {
+    background-color: #e7ebff2a;
+    font-family: Arial, sans-serif;
+   
+}
+
+.Menu-Card {
+    width: 600px;
+    border: 3px solid #13838b;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px #8b4513;
+    border-inline-end-style: inset;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right:50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Restaurant-Name {
+    font-size: 42px;
+    font-weight: bold;
+    color: #00098b70;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 4px #d2b48c;
+}
+
+.Tagline {
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+    color: #6b4226;
+    text-decoration: underline;
+}
+
+.Dish-Menu {
+    border: 2px solid #090229;
+    box-shadow: 0 0 8px #09009c;
+}
+
+.section-title {
+    font-size: 26px;
+    color: #a0522d;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+ .section-subtitle {
+     font-size: 19px;
+     color: rgba(156, 123, 30, 0.849);
+     text-decoration: wavy;
+}
+
+.Description {
+    font-size: 16px;
+    font-family: serif;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: solid;
+}
+
+.Dish-Names {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4b0082;
+    text-transform: capitalize;
+    text-transform: scale(1.2);
+}
+
+.Dish-Names:hover {
+    transform: scale(1.1);
+}
+
+.special-offer {
+    font-size: 22px;
+    font-weight: bold;
+    color: darkred;
+    text-transform: capitalize;
+    text-transform: scale(1.2);
+    background-color: black;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-transform: scale(1.2);
+    text-shadow: 2px 2px 4px #090229;
+    box-shadow: inset 0 0 20px #8b4513;
+    transform: rotate(-3deg);
+}
+</style>
+<body>
+    <div class="Menu-Card">
+        <p class="Restaurant-Name">Restaurant-Name: Hungry Eaters</p>
+        <p class="Tagline">Tagline: Satisfy Your Cravings</p>
+
+        <div class="Dish-Menu">
+            <h2 class="section-title">To-Go snacks</h2>
+            <p class="section-subtitle">snack that you can buy on the go or take home</p>
+            <p class="Dish-Names">French Fries</p>
+            <p class="Description"> crispy and delicious snack that you can take home 
+                for all to enjoy
+            </p>
+            <p class="Dish-Names">Cinnamon Roll</p>
+            <p class="Description"> this is a baked dough <q>as the name implies </q> that
+                is rolled around a delicious cinnamon batter that tastes good while hot</p>
+
+            <h3 class="section-title">Main dishes</h3>
+            <p class="Dish-Names"> Spaghetti Carbonara</p>
+            <p class="Description"> this is a top quality pasta made 
+                to vanquish hunger</p>
+                <p class="Dish-Names">Jollof Rice</p>
+                <p class="Description">A meal made from mixing differnt spices
+                    with rice in other to give a mouth watering tasty meal
+                </p>
+                <p class="Dish-Names">Grilled Chicken</p>
+                <p class="Description">A meal made with a chicken that has 
+                    been grilled to perfection and seasoned with spices to give a tasty meal</p>
+        </div>
+
+        <p class="special-offer"> Weekend Bonus 15% off all main dishes!</p>
+
+    
+</body>
+</html>
